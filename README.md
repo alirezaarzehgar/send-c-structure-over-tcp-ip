@@ -2,7 +2,7 @@
 
 This smal project is just a bullshit example about sending C structures over network.
 
-This way is suitable for sending between all file descriptors like sockets, pipes, and etc.
+This way is suitable for writing structures on all file descriptors like sockets, pipes, and etc.
 
 ## Build
 
