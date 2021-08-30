@@ -26,7 +26,7 @@ main (int argc, char const *argv[])
   person_t person;
 
   /* create socket */
-  fd = socket (AF_INET, SOCK_STREAM, IPPROTO_IP);
+  fd = socket (AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
   if (fd == -1)
     {
